@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------Banner section------------- */
+
+
+.banner {
+    display: flex;
+}
+
+.top-banner {
+    width: 50%;
+    padding: 0 0 100px 100px;
+}
+
+.top-banner img {
+    width: 100%;
+}
+
+.top-banner h1 span {
+    color: #fca311;
+}
+
+.top-banner h1 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.banner-box {
+    padding-top: 200px;
+}
+
+.top-banner p {
+    padding: 30px 0;
+    color: #6d6875;
+}
+
+.top-banner a {
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #ffba08, #f77f00);
+    ;
+    margin-top: 100px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*------------------------------About Sction--------------*/
+
+
+.about {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+}
+
+.about-sec {
+    width: 50%;
+
+}
+
+.about-sec img {
+    height: 500px;
+
+}
+
+.sec-a {
+    padding-left: 400px;
+}
+
+.sec-b {
+    padding-top: 50px;
+    padding: 100px 200px;
+
+
+}
+
+.sec-b h1 {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.sec-b p {
+    font-weight: 100;
+    padding-bottom: 30px;
+
+}
+
+.sec-b a {
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ffba08, #f77f00);
+    color: #fff;
+}
+
+/* ---------My recipie section-------------- */
+.my-recipie {
+    margin: 50PX;
+}
+
+.recipie-header {
+    margin: auto;
+    text-align: center;
+
+}
+
+.recipie-header h1 {
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.recipie-box {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+
+}
+
+.recipie-block {
+    width: 33.3%;
+    margin: 1%;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+}
+
+.recipie-block img {
+    width: 100%;
+}
+
+.recipie-block h1 {
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+/* Project section */
+.project {
+    margin: auto;
+    display: flex;
+    box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    height: auto;
+}
+
+.project-sec {
+    width: 33.3%;
+    text-align: center;
+    /* box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.5); */
+    padding: 50px;
+}
+
+/* -----------Footer--------------- */
+footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: papayawhip;
+    background-color: black;
+}
